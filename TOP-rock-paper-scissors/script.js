@@ -30,6 +30,12 @@ function getPlayerChoice(){
     console.log(playerChoiceCap)
     console.log(playerChoiceSlice)
     console.log(playerChoice)
-
 }
-
+//Validate players choice
+function choiceValidation(){
+    console.log(playerChoice)
+    if (playerChoice === "Rock" || playerChoice === "Paper" || playerChoice === "Scissors"){
+        console.log("Hot diggity dang")
+    }
+    else {console.log("Nope nopedy nope")}
+}
