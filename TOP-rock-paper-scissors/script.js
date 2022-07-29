@@ -19,5 +19,17 @@ function getComputerChoice(){
 //Input for user
 function getPlayerChoice(){
     playerChoice = prompt("Rock, Paper or Scissors?")
+    let playerChoiceLength = playerChoice.length;
+    if (playerChoiceLength > 8){
+        console.log("You do too many")
+    }
+    let playerChoiceCap = playerChoice.charAt(0).toUpperCase()
+    let playerChoiceSlice = playerChoice.slice(1).toLowerCase()
+    playerChoice = playerChoiceCap + playerChoiceSlice
+    console.log(playerChoiceLength)
+    console.log(playerChoiceCap)
+    console.log(playerChoiceSlice)
+    console.log(playerChoice)
+
 }
 
