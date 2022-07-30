@@ -27,3 +27,7 @@
 4) Comment guides:
     //Create R,P,S randomiser
     //Input for user
+    //Validate players choice
+    //Determine round winner
+    //Loop until grand master has been resolved
+    
